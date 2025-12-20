@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright-bdd && playwright test",
+    "test:headed": "npx playwright-bdd && playwright test --headed",
+    "test:debug": "npx playwright-bdd && playwright test --debug",
+    "test:report": "playwright show-report",
+    "bdd-gen": "npx playwright-bdd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "playwright-bdd": "^8.4.2",
+    "ts-node": "^10.9.2"
+  }
+}
